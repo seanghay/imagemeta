@@ -21,13 +21,13 @@
 
         <label class="mt-4 block text-sm font-bold" for="compress-format">Compression format</label>
         <select v-model="compressionFormatRef" id="compress-format"
-          class="block text-sm my-2 w-100 border-gray-200 px-3 py-2">
+          class="block text-sm my-2 border-gray-200 px-3 py-2">
           <option :value="item" v-for="item in supportedCompressionTypes" :key="item">{{ item }}</option>
         </select>
 
         <label class="mt-4 block text-sm font-bold" for="maxSize">Max Size</label>
         <input v-model="imageMaxSizeRef" min="0"
-          class="block my-2 w-100 border text-sm border-gray-200 px-3 py-2 outline-none" type="number" name="maxSize"
+          class="block my-2 border text-sm border-gray-200 px-3 py-2 outline-none" type="number" name="maxSize"
           id="maxSize">
 
 
