@@ -2,6 +2,8 @@
 
 Extract image metadata.
 
+[View Site](https://imagemeta.netlify.app/)
+
 ## Development
 
 ```sh
